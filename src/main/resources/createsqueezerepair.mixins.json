@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ancoco.createsqueezerepair.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "createsqueezerepair.refmap.json",
+  "mixins": [
+    "BlockStateMixin",
+    "CallbackInfoMixin",
+    "CallbackInfoReturnableMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
